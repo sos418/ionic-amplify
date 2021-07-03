@@ -13,5 +13,17 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<!-- 以下是default UI -->
+    <!-- <amplify-authenticator>
+      <div>
+        My App
+        <amplify-sign-out></amplify-sign-out>
+      </div>
+    </amplify-authenticator> -->
+
+    <ion-button (click)="signUp()">Sign Up</ion-button>
+
+    <ion-button (click)="confirmSignUp()">confirmSignUp</ion-button>
+    <ion-button (click)="signIn()">Sign In</ion-button>
+
 </ion-content>
